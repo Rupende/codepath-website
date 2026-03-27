@@ -16,7 +16,7 @@ type FormData = z.infer<typeof schema>;
 
 const contactInfo = [
   { icon: MapPin, label: "Location", value: "Harare, Zimbabwe" },
-  { icon: Mail, label: "Email", value: "codepathconsulting@mail.com" },
+  { icon: Mail, label: "Email", value: "codepathconsulting@gmail.com" },
   { icon: Phone, label: "Phone", value: "+263 77 166 8918 / +263 77 175 8466" },
 ];
 
@@ -189,7 +189,7 @@ export default function ContactPage() {
                   </h3>
                   <p style={{ color: "#5A7A70" }} className="text-lg">
                     Thank you for reaching out. We'll get back to you within 24 hours at{" "}
-                    <strong style={{ color: "#1A5C4A" }}>codepathconsulting@mail.com</strong>.
+                    <strong style={{ color: "#1A5C4A" }}>codepathconsulting@gmail.com</strong>.
                   </p>
                 </motion.div>
               </div>
@@ -339,7 +339,7 @@ export default function ContactPage() {
                   <p className="text-xs text-center" style={{ color: "#5A7A70" }}>
                     Your message goes directly to{" "}
                     <span style={{ color: "#1A5C4A", fontWeight: 600 }}>
-                      codepathconsulting@mail.com
+                      codepathconsulting@gmail.com
                     </span>
                   </p>
                 </form>

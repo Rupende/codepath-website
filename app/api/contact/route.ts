@@ -11,7 +11,7 @@ export async function POST(req: Request) {
 
     await resend.emails.send({
       from: "CodePath Website <onboarding@resend.dev>",
-      to: ["codepathconsulting@mail.com"],
+      to: ["codepathconsulting@gmail.com"],
       replyTo: email,
       subject: `New Enquiry from ${name} (${role})`,
       html: `

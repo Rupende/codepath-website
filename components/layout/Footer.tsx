@@ -146,7 +146,7 @@ export default function Footer() {
               <div className="space-y-3">
                 {[
                   { Icon: MapPin, text: "Harare, Zimbabwe"            },
-                  { Icon: Mail,   text: "codepathconsulting@mail.com" },
+                  { Icon: Mail,   text: "codepathconsulting@gmail.com" },
                   { Icon: Phone,  text: "+263 77 166 8918"            },
                   { Icon: Phone,  text: "+263 77 175 8466"            },
                 ].map(({ Icon, text }, i) => (
